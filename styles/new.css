@@ -164,6 +164,69 @@
   font-family: "JetBrains Mono", "Fira Code", monospace;
 }
 
+.carousel-card {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f3f4f6;
+  border-radius: 2rem;
+  margin: 5rem;
+  box-shadow: 9.91px 9.91px 15px #dddee0, -9.91px -9.91px 15px #ffffff;
+}
+
+.certimage > img {
+  max-width: 500px;
+  border-radius: 2rem;
+}
+
+.contactme > div {
+  position: relative;
+  max-width: 40%;
+  margin: 0 30%;
+}
+
+.contactme > div > span {
+  color: var(--primary-color);
+}
+
+.contactme .message {
+  height: 200px;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -5px;
+  bottom: 10px;
+  left: 20px;
+  font-size: 15px;
+  opacity: 1;
+}
+
+.inputText {
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  resize: none;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.inputText:hover {
+  box-shadow: 0 0 0.3rem var(--primary-color);
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 35px;
+  top: 31px;
+  transition: 0.2s ease all;
+}
+
 @media only screen and (max-width: 768px) {
   .project-overlap {
     flex-direction: column;
@@ -206,6 +269,28 @@
     width: 100%;
     height: 230px;
     border-radius: 1rem;
+  }
+
+  .contactme > div {
+    max-width: 90%;
+    margin: 0 5%;
+  }
+
+  .inputText {
+    margin: 1rem 0;
+  }
+
+  .carousel-card {
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .certimage > img {
+    max-width: 300px;
+    border-radius: 0;
+    margin: 1rem;
   }
 }
 
