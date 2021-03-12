@@ -205,3 +205,11 @@ header ul li {
   list-style: none;
   transition: width 1s, height 1s;
 }
+
+.carousel-cell {
+  width: 100%;
+  }
+
+
+  .carousel-cell:before {
+    display: block;
