@@ -36,7 +36,7 @@ hr {
   padding: 0.5rem 1rem;
 }
 
-.links:hover {
+.nav-link:hover {
   transition: all 1ms;
   border-bottom: 1px #fff solid;
   border-top: 1px solid;
