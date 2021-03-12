@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -31,7 +31,32 @@ hr {
 .links {
   text-decoration: none;
   color: var(--button-text-color);
+  font-size: large;
+  transition: all 1ms;
+  padding: 0.5rem 1rem;
 }
+
+.links:hover {
+  transition: all 1ms;
+  border-bottom: 1px #fff solid;
+  border-top: 1px solid;
+  padding: 0.5rem 1rem;
+  /* transition: width 1ms; */
+}
+
+/* .nav-link:hover:after {
+  width: 100%;
+}
+
+.nav-link:after {
+  content: "";
+  margin-top: 0.5rem;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #52d1da;
+  transition: width 0.3s;
+} */
 
 .link-primary {
   padding: 0.6rem 1.2rem;
@@ -144,7 +169,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
+  margin: 0 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -155,14 +181,17 @@ header {
   padding: 1rem 1rem;
   border-bottom-left-radius: 1rem;
 }
+
 .logo {
   position: relative;
-  font-weight: 700;
   text-decoration: none;
   font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   transition: 0.6s;
+  font-weight: 400;
+}
+
+.logo a {
+  color: #fff;
 }
 
 header ul {
@@ -175,8 +204,4 @@ header ul li {
   position: relative;
   list-style: none;
   transition: width 1s, height 1s;
-}
-
-header ul li a {
-  margin: 0 15px;
 }
