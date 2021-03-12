@@ -8,7 +8,7 @@
 .project-overlap {
   width: 90%;
   /* max-width: 1000px; */
-  margin: 7rem auto;
+  margin: 4rem auto 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,6 +90,69 @@
   line-height: 25px;
 }
 
+.blog-btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0 6rem;
+}
+
+.blog-btns > button {
+  outline: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0.8rem 2rem;
+  background: none;
+}
+
+.blog-view {
+  margin: 4rem 0;
+}
+
+.row {
+  width: 100%;
+  margin-left: 7rem;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 2rem;
+  line-height: 1.6;
+  margin: 1rem 2rem;
+  min-height: 350px;
+  max-width: 1200px;
+  border-radius: 1rem;
+  transition: all 1ms;
+}
+
+.column:hover {
+  transition: all 1ms;
+  box-shadow: 9.91px 9.91px 15px #e8e8e8, -13px -11px 15px #f8f8f8;
+}
+
+.column > img {
+  max-width: 600px;
+  width: 100%;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+.column h2 {
+  font-size: xx-large;
+}
+
+.column p {
+  margin: 1rem 0;
+  font-size: larger;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (max-width: 768px) {
   .project-overlap {
     flex-direction: column;
@@ -106,5 +169,31 @@
     margin: 0;
     margin-top: -100px;
     padding: 7rem 1rem 3rem;
+  }
+
+  .row {
+    margin-left: 0;
+  }
+
+  .blog-btns {
+    display: none;
+  }
+
+  .column {
+    width: 90%;
+    padding: 0;
+    margin: 2rem 1rem;
+  }
+
+  .column:hover {
+    transition: all 1ms;
+    box-shadow: none;
+  }
+
+  .column > img {
+    max-width: 600px;
+    width: 100%;
+    height: 230px;
+    border-radius: 1rem;
   }
 }
