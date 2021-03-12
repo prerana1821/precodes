@@ -60,7 +60,6 @@ hr {
 
 /* * nav  */
 
-
 .active {
   font-weight: bold;
 }
@@ -89,6 +88,7 @@ hr {
 }
 
 header {
+  z-index: 99999;
   margin: auto;
   color: var(--header-text);
   text-align: center;
@@ -177,6 +177,6 @@ header ul li {
   transition: width 1s, height 1s;
 }
 
-header ul li a{
+header ul li a {
   margin: 0 15px;
 }
