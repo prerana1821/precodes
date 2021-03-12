@@ -60,12 +60,6 @@ hr {
 
 /* * nav  */
 
-.navbar {
-  background-color: var(--primary-color);
-  color: var(--button-text-color);
-  padding: 1rem 1rem;
-  border-bottom-left-radius: 1rem;
-}
 
 .active {
   font-weight: bold;
@@ -94,7 +88,7 @@ hr {
   display: block;
 }
 
-.header {
+header {
   margin: auto;
   color: var(--header-text);
   text-align: center;
@@ -144,4 +138,45 @@ hr {
 .footer-list li {
   display: inline;
   margin: 0 0.5rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  padding: 1rem 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.logo {
+  position: relative;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+  transition: width 1s, height 1s;
+}
+
+header ul li a{
+  margin: 0 15px;
 }
