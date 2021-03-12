@@ -10,33 +10,41 @@
     <meta name="robots" content="follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="theme-color" content="#F50057">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/web.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/web.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel=" icon" href="/images/fav.ico" type="image/x-icon">
     <title>Prerana Nawar 🖤</title>
+    <script type="text/javascript">
+        function toggle() {
+            var head = document.getElementById("header")
+            head.classList.toggle('active')
+        }
+    </script>
 </head>
 
 <body>
-
-    <nav class="navbar">
-        <div><a href="/">preCODES</a></div>
+    <header id="header">
+       
+        <div class="logo"><a href="/">preCODES</a></div>
         <ul class="list-unordered">
-            <li><a class="links active" href="/">home</a></li>
-            <li><a class="links" href="/projects.html">projects</a>
+            <li><a class="links active" href="index.html">home</a></li>
+            <li><a class="links" href="projects.html">projects</a>
             </li>
-            <li><a class="links" href="/blogs.html">blogs</a></li>
+            <li><a class="links" href="blogs.html">blogs</a></li>
         </ul>
-    </nav>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    
 
     <main>
-        <header class="hero-content">
+        <div class="hero-content">
 
             <!-- <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label> -->
 
             <div class="model-sm">
-                <img src="/images/hero.svg" alt="home-banner">
+                <img src="images/hero.svg" alt="home-banner">
             </div>
 
             <div class="main-text">
@@ -48,17 +56,17 @@
 
 
             <div class="model-1">
-                <img src="/images/hero.svg" alt="home-banner">
+                <img src="images/hero.svg" alt="home-banner">
             </div>
 
             <!-- <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label> -->
 
 
-        </header>
+        </div>
 
         <section class="about-me">
             <div class="model-2">
-                <img src="/images/skills.svg" alt="home-banner">
+                <img src="images/skills.svg" alt="home-banner">
             </div>
             <div class="about-me-text">
                 <h1>A bit about me!</h1>
@@ -79,13 +87,13 @@
         <section class="section projects">
             <h2>My Projects</h2>
             <p>I like to showcase my work and thus, here are some of my projects.</p>
-            <a class="links link-primary" href="/projects.html">Browse Projects</a>
+            <a class="links link-primary" href="projects.html">Browse Projects</a>
         </section>
 
         <section class="section off-white blogs">
             <h2>My Blogs</h2>
             <p>You can checkout my blogs!!</p>
-            <a class="links link-secondary" href="/blogs.html">Read Blogs</a>
+            <a class="links link-secondary" href="blogs.html">Read Blogs</a>
         </section>
     </main>
 
