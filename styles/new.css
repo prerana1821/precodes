@@ -263,6 +263,29 @@ input:not(:focus):valid ~ .floating-label {
   }
 }
 
+/* carousel grid */
+
+.carousel-grid {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 2rem 0;
+  margin: 2rem 5rem;
+}
+.carousel-grid h3 {
+  text-align: left;
+}
+
+.carousel-grid h4 {
+  text-align: left;
+}
+
+.cert-main {
+  margin-bottom: 1rem;
+}
+
+.carousel-grid p {
+  text-align: right;
+}
 @media only screen and (max-width: 768px) {
   .loader > img {
     width: 100%;
