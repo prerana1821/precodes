@@ -289,7 +289,7 @@ input:not(:focus):valid ~ .floating-label {
 @media only screen and (max-width: 768px) {
   .loader > img {
     width: 100%;
-    height: 80%;
+    height: 50%;
   }
 
   .project-overlap {
@@ -346,7 +346,7 @@ input:not(:focus):valid ~ .floating-label {
 
   .carousel-card {
     flex-direction: column;
-    margin: 1rem 0;
+    margin: 2rem 0;
     padding: 1rem;
     box-shadow: none;
   }
