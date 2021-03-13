@@ -33,6 +33,9 @@ hr {
   color: var(--button-text-color);
   font-size: large;
   transition: all 1ms;
+}
+
+.nav-link {
   padding: 0.5rem 1rem;
 }
 

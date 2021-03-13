@@ -129,7 +129,6 @@ body {
   margin: auto;
   max-width: 90%;
   text-align: center;
-  margin-bottom: 4rem;
 }
 
 .projects h2 {
@@ -344,6 +343,10 @@ code {
 @media screen and (max-width: 800px) {
   .dev {
     display: none;
+  }
+
+  .projects {
+    margin-bottom: 0;
   }
 
   header ul {

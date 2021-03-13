@@ -15,5 +15,7 @@ function gridView() {
     }
 }
 
-// display: flex;
-// gap: 2rem;
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
