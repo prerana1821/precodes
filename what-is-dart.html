@@ -10,25 +10,33 @@
     <meta name="robots" content="follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="theme-color" content="#F50057">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/web.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/web.css">
+    <link rel="stylesheet" href="styles/new.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel=" icon" href="/images/fav.ico" type="image/x-icon">
-    <title>What is Dart? | Prerana Nawar 🖤 </title>
+    <link rel=" icon" href="images/fav.ico" type="image/x-icon">
+    <title>Blogs | Prerana Nawar 🖤 </title>
+    <script type="text/javascript">
+        function toggle() {
+            var head = document.getElementById("header")
+            head.classList.toggle('active')
+        }
+    </script>
 </head>
 
 <body>
 
-    <nav class="navbar">
-        <div><a href="/index.html">preCODES</a></div>
+    <header id="header">
+        <div class="logo"><a href="/">preCODES</a></div>
         <ul class="list-unordered">
-            <li><a class="links" href="/">home</a></li>
-            <li><a class="links" href="/projects.html">projects</a>
+            <li><a class=" nav-link links" href="index.html">home</a></li>
+            <li><a class="nav-link links" href="projects.html">projects</a>
             </li>
-            <li><a class="links active" href="/blogs.html">blogs</a></li>
+            <li><a class=" nav-link links active" href="blogs.html">blogs</a></li>
         </ul>
-    </nav>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
 
     <main>
 
