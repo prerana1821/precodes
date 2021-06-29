@@ -32,6 +32,7 @@
 }
 .left-luckybirthday {
   background: url(../images/projects/luckybirthday.png) no-repeat center / cover;
+  background-size: contain;
 }
 
 .left-quote {
@@ -60,6 +61,29 @@
 
 .left-quiz {
   background: url(../images/projects/quizapp.png) no-repeat center / cover;
+}
+
+.left-componentlibrary {
+  background: url(../images/projects/comp.png) no-repeat;
+  background-size: cover;
+}
+
+.left-prestore {
+  background: url(../images/projects/prestore-ecom.png) no-repeat;
+  background-size: cover;
+}
+
+.left-pretube {
+  background: url(../images/projects/pretube-you.png) no-repeat;
+  background-size: cover;
+}
+
+.left-quizTS {
+  background: url(../images/projects/quizTS.png) no-repeat center / cover;
+}
+
+.left-edukit {
+  background: url(../images/projects/edukit.png) no-repeat center / cover;
 }
 
 .right {
