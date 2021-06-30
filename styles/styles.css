@@ -66,6 +66,7 @@ hr {
   background-color: var(--primary-color);
   color: var(--button-text-color);
   border-radius: 2rem;
+  border: none;
 }
 
 .link-secondary {
