@@ -35,6 +35,11 @@ hr {
   transition: all 1ms;
 }
 
+.logo-png {
+  width: 27px;
+  margin: 0 1rem;
+}
+
 .nav-link {
   padding: 0.5rem 1rem;
 }

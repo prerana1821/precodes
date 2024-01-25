@@ -433,3 +433,13 @@ input:not(:focus):valid ~ .floating-label {
 .flickity-page-dots {
   margin: 2rem 0 !important;
 }
+
+/* blog page */
+
+.section-center {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+  gap: 1rem;
+}
